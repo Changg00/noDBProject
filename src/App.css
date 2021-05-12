@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  
+}
+
+.custom {
+  cursor: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu4EPuIcXq0YmUrZ8Fg4IR6vFCNBrldMvNWQ&usqp=CAU)
+}
+
+body {
+  background-color: #30236d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url(https://wallpapercave.com/wp/wp7015397.jpg?__cf_chl_jschl_tk__=144134453fda6bc2cea3023fc9cf7e91d3c74fcc-1615919425-0-AVu41_DHQnZu2Mz9JworwcacnXThsSc9RdAmMEpOAQyPcw0R0uK7iiUOdhmohyDGA3RK63BQtCCbao5wWHT4FJE4uKwtM2gg4J9FjjXxyTvThP_vHQLPYjv2Xzk1G_23IW0W2dnQT4rgdAiML_FnslJ_96ZwI38hYWcqtOXummNw-payDBPWi0ZaHZ7JwnYZNImL0dCAS7ULj9AU4sgUZoAXZNAGiPAtJzw1iWN1xpRRr7-EKKLqW0wLXc0Rs68ieMeifXiLCLOgZFpuhvbhYTKu1Os8EKILmdSLvG-tXannbankDq19Y1wGqeCiprJCxAFl3IXmqN2PQrXeN5GJCDs);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.categoryList {
+  display: flex;
+  align-items: flex-end;  
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.App h1, .App p {
+  color: #fafafa
+}
+/* .Img {
+  margin-left: -900px;
+  
+} */
+
+.App h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
